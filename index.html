@@ -18,17 +18,36 @@
 </head>
 
 <body>
-    <div class="container" style="height: 400px;">
+    <div class="container text-center" style="height: 400px;">
         <div class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="margin: 150px 0px 150px;">
-            <h1>Ops, smth gone wrong ((</h1>
-            <div><img class="d-flex d-xxl-flex flex-row justify-content-between justify-content-xxl-center" data-bss-hover-animate="tada" style="width: 300px;height: 300px;" src="assets/img/2.png" loading="auto"></div>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1>Ops, smth gone wrong ((</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-11 col-md-9 col-xl-4 col-xxl-12 offset-0 offset-sm-2 offset-md-3 offset-lg-4 offset-xl-4 offset-xxl-0"><img class="d-flex d-xxl-flex flex-row justify-content-between justify-content-xxl-center" data-bss-hover-animate="tada" style="width: 300px;height: 300px;" src="assets/img/2.png" loading="auto"></div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Контакты</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Контакты ...</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Закрыть</button></div>
+                </div>
+            </div>
         </div>
         <footer class="footer-basic" style="margin: 0px 40px;filter: blur(0px);">
             <div class="social"><a href="https://tele.click/savelevvaa"><i class="fa fa-telegram"></i></a><a href="https://www.instagram.com/savelevvaa/?hl=ru"><i class="icon ion-social-instagram-outline"></i></a><a href="https://vk.com/dlnwlkmn"><i class="fa fa-vk"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Домой</a></li>
-                <li class="list-inline-item"><a href="#">Контакты</a></li>
-                <li class="list-inline-item"><a href="#">Github</a></li>
+                <li class="list-inline-item"><button class="btn btn-primary active" type="button" style="background: rgb(249,180,0);">Домой</button></li>
+                <li class="list-inline-item"><button class="btn btn-primary" type="button">Контакты</button></li>
+                <li class="list-inline-item"><a class="btn btn-primary active" role="button" style="background: rgb(211,13,0);">GitHub</a></li>
             </ul>
             <p class="copyright">savelevvaa © 2021</p>
         </footer>
