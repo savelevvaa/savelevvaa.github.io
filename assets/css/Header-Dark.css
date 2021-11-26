@@ -152,10 +152,30 @@
   margin-bottom: 80px;
 }
 
+@media (max-width:768px) {
+  #header_h1 {
+    /*margin-bottom: 50px;*/
+    /*line-height: 1.5;*/
+    font-size: 21px;
+    width: 46px;
+  }
+}
+
 @media (min-width:768px) {
   .header-dark .hero h1 {
     margin-bottom: 50px;
     line-height: 1.5;
+    font-size: 26px;
+    width: 264px;
+  }
+}
+
+@media (min-width:400px) {
+  #header_h1 {
+    /*margin-bottom: 50px;*/
+    /*line-height: 1.5;*/
+    font-size: 15px;
+    width: 50px;
   }
 }
 
